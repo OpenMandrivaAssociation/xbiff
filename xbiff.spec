@@ -8,7 +8,7 @@ License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
 
 BuildRequires: libxext-devel >= 1.0.0
-BuildRequires: libxaw-devel >= 1.0.1
+BuildRequires: pkgconfig(xaw7)
 BuildRequires: x11-data-bitmaps >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 
