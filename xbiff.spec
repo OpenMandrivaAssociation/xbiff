@@ -8,7 +8,7 @@ License:	MIT
 
 BuildRequires:	pkgconfig(xext) >= 1.0.0
 BuildRequires:	xaw-devel >= 1.0.1
-BuildRequires:	x11-data-bitmaps >= 1.0.1
+BuildRequires:	pkgconfig(xbitmaps) >= 1.0.1
 BuildRequires:	pkgconfig(xorg-macros) >= 1.0.1
 
 %description
