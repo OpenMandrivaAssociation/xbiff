@@ -1,9 +1,10 @@
 Name:		xbiff
-Version:	1.0.4
-Release:	2
+Version:	1.0.5
+Release:	1
 Summary:	Mailbox flag for X
 Group:		Development/X11
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Url:      https://gitlab.freedesktop.org/xorg/app/xbiff
+Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 
 BuildRequires:	pkgconfig(xext) >= 1.0.0
